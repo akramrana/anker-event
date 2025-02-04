@@ -97,7 +97,7 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="mt-5 col-12 d-flex align-items-center justify-content-center">
+                                    <div class="mt-5 col-12 d-flex align-items-center justify-content-center sm-title">
                                         <h1 class="Gilroy-ExtraBold text-white title-txt">
                                             <?php
                                             echo $lang == 'en' ? 'ANKER DEALER EVENT 2025' : 'حدَث تجمُّع موزّعي أنكر 2025';

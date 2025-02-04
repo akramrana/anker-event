@@ -323,6 +323,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     .title-txt{
         font-size: 25px !important;
     }
+    .img-soundcore{
+        width: 125.66px;
+    }
+    .sm-title{
+        margin-top: -48px !important;
+    }
 }
 
 
