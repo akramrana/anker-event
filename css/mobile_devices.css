@@ -361,6 +361,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     .main-bg {
         margin-top: -38px;
     }
+    .btn-custom{
+        width: 255px;
+    }
 }
 
 @media screen and (min-width: 1710px) and (min-height: 1107px) {
@@ -375,7 +378,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     }
 }
 
-@media screen and (min-width: 1400px) and (max-width: 900px) {
+@media screen and (min-width: 1400px) and (min-height: 900px) {
     .title-txt{
         font-size: 52px !important;
     }

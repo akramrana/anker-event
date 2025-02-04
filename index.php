@@ -145,12 +145,12 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                                     <img src="images/eufy.png" alt="eufy" class="img-fluid"/>
                                 </a>
                             </div>
-                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                                 <a href="#" class="btn-custom">
                                     <img src="images/soundcore.png" alt="soundcore" class="img-fluid"/>
                                 </a>
                             </div>
-                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                                 <a href="#" class="btn-custom">
                                     <img src="images/nebula.png" alt="nebula" class="img-fluid"/>
                                 </a>
