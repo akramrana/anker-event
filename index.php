@@ -97,7 +97,7 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 d-flex align-items-center justify-content-center">
+                                    <div class="mt-5 col-12 d-flex align-items-center justify-content-center">
                                         <h1 class="Gilroy-ExtraBold text-white title-txt">
                                             <?php
                                             echo $lang == 'en' ? 'ANKER DEALER EVENT 2025' : 'حدَث تجمُّع موزّعي أنكر 2025';
@@ -137,22 +137,22 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                         <div class="row text-center" dir="<?= $dir; ?>">
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/anker.png" alt="anker" class="img-fluid"/>
+                                    <img src="images/anker.png" alt="anker" class="img-fluid img-anker"/>
                                 </a>
                             </div>
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/eufy.png" alt="eufy" class="img-fluid"/>
+                                    <img src="images/eufy.png" alt="eufy" class="img-fluid img-eufy"/>
                                 </a>
                             </div>
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/soundcore.png" alt="soundcore" class="img-fluid"/>
+                                    <img src="images/soundcore.png" alt="soundcore" class="img-fluid img-soundcore"/>
                                 </a>
                             </div>
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/nebula.png" alt="nebula" class="img-fluid"/>
+                                    <img src="images/nebula.png" alt="nebula" class="img-fluid img-nebula"/>
                                 </a>
                             </div>
                         </div>

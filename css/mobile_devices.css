@@ -79,6 +79,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
         background-position: top center;
         background-size: cover;
     }
+    .img-anker{
+        height: 19.66px;
+    }
+    .img-eufy{
+        width: 60px;
+    }
+    .img-nebula{
+        height: 13.66px;
+    }
 }
 
 @media (max-width: 896px) and (max-width: 414px){
@@ -245,6 +254,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     .img-component {
         width: 430px !important;
         margin-top: 0px;
+    }
+    .img-soundcore{
+        width: 125.66px;
     }
 }
 
