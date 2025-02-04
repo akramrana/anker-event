@@ -78,9 +78,9 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col d-flex align-items-center justify-content-start">
-                                                <img src="images/logo.png" class="logo"/>
+                                                <img src="images/logo.png" class="logo ms-1 me-1"/>
                                             </div>
-                                            <div class="col d-flex align-items-center justify-content-end lang-font-size pe-3">
+                                            <div class="col d-flex align-items-center justify-content-end lang-font-size ms-1 me-1">
                                                 <span>
                                                     <a href="index.php?lang=en" class="Gilroy-Bold text-white no-underline">
                                                         ENG
@@ -137,22 +137,22 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                         <div class="row text-center" dir="<?= $dir; ?>">
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/anker.png" alt="anker" class="link-img-anker"/>
+                                    <img src="images/anker.png" alt="anker" class="img-fluid"/>
                                 </a>
                             </div>
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/eufy.png" alt="eufy" class="link-img-eufy"/>
+                                    <img src="images/eufy.png" alt="eufy" class="img-fluid"/>
                                 </a>
                             </div>
-                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 d-md-none">
+                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/soundcore.png" alt="soundcore" class="link-img-soundcore"/>
+                                    <img src="images/soundcore.png" alt="soundcore" class="img-fluid"/>
                                 </a>
                             </div>
-                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 d-md-none">
+                            <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="#" class="btn-custom">
-                                    <img src="images/nebula.png" alt="nebula" class="link-img-nebula"/>
+                                    <img src="images/nebula.png" alt="nebula" class="img-fluid"/>
                                 </a>
                             </div>
                         </div>
