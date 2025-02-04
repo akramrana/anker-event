@@ -1,0 +1,200 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 29, 2025, 10:43:53 AM
+    Author     : akram
+*/
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/Gilroy-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('../fonts/Gilroy-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'GE SS Two Bold';
+    src: url('../fonts/GE SS Two Bold.ttf');
+}
+
+@font-face {
+    font-family: 'GE SS Two Light';
+    src: url('../fonts/GE SS Two Light.ttf');
+}
+
+@font-face {
+    font-family: 'GE SS Two Medium';
+    src: url('../fonts/GE SS Two Medium.ttf');
+}
+
+body{
+    background: #000006 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.custom-max-width{
+    max-width: 1920px;
+}
+
+.container-main{
+    background: url('../images/bg_abstruct.png') no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-header{
+}
+
+.main-bg{
+    margin-top: 48px;
+}
+
+.section-bg{
+    background: url('../images/black_white_gradient.png') ;
+    height: 152px;
+    margin-top: -13px;
+}
+
+.footer-bg{
+    background: url('../images/bottom_bg.png') repeat;
+    height: 180px;
+}
+
+.Gilroy-ExtraBold{
+    font-family: 'Gilroy-ExtraBold'
+}
+
+.Gilroy-Bold{
+    font-family: 'Gilroy-Bold'
+}
+
+.Gilroy-Regular{
+    font-family: 'Gilroy-Regular'
+}
+
+.GESSTwoBold{
+    font-family: 'GE SS Two Bold'
+}
+
+.GESSTwoLight{
+    font-family: 'GE SS Two Light'
+}
+
+.GESSTwoMedium{
+    font-family: 'GE SS Two Medium'
+}
+
+.title-txt{
+    font-size: 55px;
+    text-align: center;
+}
+
+.subtitle-txt{
+    font-size: 31.08px;
+    text-align: center;
+}
+
+.btn-custom {
+    position: relative;
+    display: inline-block;
+    height: 96px;
+    width: 266px; /* Or set a fixed width */
+    background: url('../images/btn_middle_bg.png') repeat-x;
+    padding: 0 22px; /* Prevents content from overlapping side images */
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-custom::before,.btn-custom::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 96px;
+    width: 22px;
+}
+
+.btn-custom::before {
+    background: url('../images/btn_left_bg.png');
+    left: 0;
+}
+
+.btn-custom::after {
+    background: url('../images/btn_right_bg.png');
+    right: 0;
+}
+
+.nebula-pt{
+    padding-top: 32px;
+}
+
+.lang-font-size{
+    font-size: 26.71px;
+}
+
+.img-component{
+    width: 88%;
+}
+
+.download-txt{
+    font-size: 27.38px;
+}
+
+.padding-bottom{
+    padding-bottom: 0 !important;
+}
+
+.lang-ar{
+    font-size: 27px;
+    vertical-align:top;
+}
+
+/*============================*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Loader Animation */
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ccc;
+    border-top: 5px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
