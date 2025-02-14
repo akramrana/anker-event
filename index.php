@@ -57,7 +57,7 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3 px-lg-5 py-5 lang-font-size text-end d-none d-md-block lang-sec">
+                            <div class="col-3 px-lg-5 py-5 lang-font-size text-end d-none lang-sec">
                                 <span>
                                     <a href="index.php?lang=en" class="Gilroy-Bold text-white no-underline">
                                         ENG
@@ -77,10 +77,10 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                                 <div class="row mt-3">
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col d-flex align-items-center justify-content-start">
+                                            <div class="col d-flex align-items-center justify-content-center">
                                                 <img src="images/logo.png" class="logo ms-1 me-1"/>
                                             </div>
-                                            <div class="col d-flex align-items-center justify-content-end lang-font-size ms-1 me-1">
+                                            <div class="d-none col d-flex align-items-center justify-content-end lang-font-size ms-1 me-1">
                                                 <span>
                                                     <a href="index.php?lang=en" class="Gilroy-Bold text-white no-underline">
                                                         ENG
@@ -136,22 +136,22 @@ $dir = $lang == 'en' ? 'ltr' : 'rtl';
                     <div class="d-flex flex-column">
                         <div class="row text-center" dir="<?= $dir; ?>">
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                <a href="#" class="btn-custom">
+                                <a download target="_new" href="pdf/Anker One Pager.pdf" class="btn-custom">
                                     <img src="images/anker.png" alt="anker" class="img-fluid img-anker"/>
                                 </a>
                             </div>
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                <a href="#" class="btn-custom">
+                                <a download target="_new" href="pdf/Eufy One Pager.pdf" class="btn-custom">
                                     <img src="images/eufy.png" alt="eufy" class="img-fluid img-eufy"/>
                                 </a>
                             </div>
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
-                                <a href="#" class="btn-custom">
+                                <a download target="_new" href="pdf/Soundcore One Pager.pdf" class="btn-custom">
                                     <img src="images/soundcore.png" alt="soundcore" class="img-fluid img-soundcore"/>
                                 </a>
                             </div>
                             <div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0">
-                                <a href="#" class="btn-custom">
+                                <a download target="_new" href="pdf/Nebula One Pager.pdf" class="btn-custom">
                                     <img src="images/nebula.png" alt="nebula" class="img-fluid img-nebula"/>
                                 </a>
                             </div>
